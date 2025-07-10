@@ -1,0 +1,134 @@
+ .FeatureSection {
+  max-width: 1270px;
+  margin: 50px auto;
+  padding: 0 30px;
+}
+
+.FeatureHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: rgb(27, 24, 24);
+  margin: 0;
+}
+
+.iconsection {
+  display: flex;
+  gap: 12px;
+  cursor: pointer;
+}
+
+.iconsection svg {
+  font-size: 20px;
+  color: #000;
+}
+
+.productdetail-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 24px;
+}
+
+
+
+
+
+/* Core card styling */
+.productdetail-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 40px 25px;
+  text-align: center;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  height: 230px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.iconsection .arrow {
+  cursor: pointer;
+  font-size: 24px;
+  color: #555;
+  padding: 6px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+/* .iconsection .arrow:hover {
+  background-color: #e2e8f0;
+}
+.productdetail-grid::-webkit-scrollbar {
+  display: none;
+} */
+
+.productdetail-card img {
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 12px;
+  object-fit: contain;
+  display: block;
+}
+
+.productdetail-card p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #7b7676;
+  margin: 0;
+}
+.imagesection {
+  display: flex;
+  max-width: 1270px;
+  margin: 30px auto;
+  padding: 0 30px;
+  height: 240px;
+  gap: 20px;
+}
+
+.firstimagesection,
+.secondimgsection {
+  display: flex;
+  background-color: rgb(234, 228, 228);
+  padding: 20px 10px;
+  border-radius: 10px;
+  width: 50%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.textsection {
+  padding: 22px;
+}
+
+.texttitle {
+  font-size: 32px;
+  margin: 6px 0;
+}
+
+.shopnow {
+  margin: 16px 10px;
+  padding: 10px 20px;
+  border-radius: 6px;
+  color: white;
+  background-color: #211f1f;
+  border: none;
+  cursor: pointer;
+}
+
+.imgs img {
+  width:100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  background: transparent;
+  display: block;
+}  

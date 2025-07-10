@@ -1,0 +1,205 @@
+  .sells-section{
+    max-width: 1270px;
+    margin: 65px auto;
+    padding: 0 20px;
+}
+.Best-sell-heading{
+    font-size: 28px;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 20px;
+}
+.Best-Sell-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+    gap: 20px;
+}
+.SellCardSection {
+  position: relative;
+  border-radius: 10px;
+  width: 100%;
+  height: 470px;
+  overflow: hidden;
+  border: 1px solid #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+.SellCardSection img{
+  position: absolute;        
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  
+  z-index: 1;   
+}
+.overlay-text {
+  position: absolute;
+  top: 9%;
+  left: 10%;
+  z-index: 2;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.organic{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 0.6;
+}
+.coffee{
+    font-size: 28px;
+    font-weight: 600;
+}
+.deal{
+    font-size: 17px;
+}
+.shop-btn {
+  margin-top: 14px;
+  padding: 10px 18px;
+  background-color: #029839;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  width: fit-content;
+  transition: background 0.3s ease;
+}
+.SellCardSection2{
+    position: relative;
+    background:#fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 40px;
+    height: 480px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.imgsection{
+    width: 100%;
+    max-height: 140px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+.headingssec{
+    position:absolute;
+    top: 46%;
+    left: 3%;
+}
+.teasec{
+   font-size: 14px;
+    color:#6b7280 ;
+    height: 18px;
+    line-height: 20px;
+}
+.coffeesec{
+    font-size: 15px;
+    font-weight: 500;
+    color: #111827;
+    margin: 5px 0 0 0;
+    height: 28px;
+}
+
+.dailyratingsec {
+    position: absolute;
+    top: 54%;
+    left: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+}
+.dolarsection{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.dolarprice {
+  font-weight: 600;
+  color: #111827;
+  font-size: 16px;
+}
+.dolaroldprice {
+  text-decoration: line-through;
+  font-size: 16px;
+  color: #9ca3af;
+}
+
+.starsection {
+  display: flex;
+  align-items: center;
+}
+
+
+.Ratingsec {
+  font-size: 14px;
+  color: #374151;
+  margin-right: 14px;
+}
+
+.addtocartbtn {
+  position: absolute;
+  top: 62%;
+  left: 3%;
+  right: 3%;
+  /* margin-top: 120px; */
+    /* width: 100%; */
+  /* padding: 10px 54px; */
+  background-color: #038b35;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  /* padding: 12px 0; */
+  padding: 8px 4px;
+  box-sizing: border-box;
+}
+
+.addtocartbtn:hover {
+  background-color: #16a34a;
+}
+
+.countdown-boxes{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto;
+  gap: 8px;
+  padding: 10px;
+  background: #f9fafb;
+  border-radius: 5px;
+  position: absolute;
+  top: 71%;
+  left: 4%;
+  right: 4%;
+}
+.sec-box {
+  grid-column: 2; /* middle column */
+  grid-row: 2;     /* second row */
+}
+.time-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  border: 1px solid #e5e7eb;
+  border-radius: 5px;
+  padding: 8px;
+  background-color: white;
+}
+
+.time-value {
+  font-weight: 500;
+  color: #111827;
+  font-size: 15px;
+}
+
+.time-label {
+  color: #6b7280;
+  font-size: 13px;
+}

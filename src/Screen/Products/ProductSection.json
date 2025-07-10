@@ -1,0 +1,168 @@
+[
+    {
+        "id":1,
+        "badge":"Sale",
+        "badgeDiscount":"10%",
+        "category":"Snack and Munchies",
+        "tittle":"Haldiram's Sev Bhujia",
+        "rating":4.3,
+        "ratingCount":4,
+        "Price":21.6,
+        "OriginalPrice":24,
+        "imgurl":"https://tse1.mm.bing.net/th/id/OIP.SMxx8QFkCtwq42xXcnbhogHaHa?pid=Api&P=0&h=220"
+    },
+    {
+        "id":2,
+        "category":"Bakery and Biscuits",
+        "tittle":"NutriChoice Digestive",
+        "rating":4.3,
+        "ratingCount":4,
+        "Price":24,
+        "OriginalPrice":24,
+        "imgurl":"https://tse4.mm.bing.net/th/id/OIP.NnBxqnMEF1X6JuXNCyi0PQHaHa?pid=Api&P=0&h=220"
+    },
+    {
+        "id":3,
+        "badge":"Buy 1 Get $4.00 off",
+        "category":"Bakery and Biscuits",
+        "tittle":"Cadbury 5 star Chocolate",
+        "rating":4.3,
+        "ratingCount":4,
+        "Price":24,
+        "OriginalPrice":24,
+        "imgurl":"https://tse4.mm.bing.net/th/id/OIP.tGxdXG5W8avMOlRjyuKkQwHaHa?pid=Api&P=0&h=220"
+    },
+    {
+        "id":4,
+        "badge":"Hot",
+        "badgeDiscount":"40%",
+        "category":"Instant Food",
+        "tittle":"Onnion Flavour Potato",
+        "rating":4.3,
+        "ratingCount":4,
+        "Price":11.7,
+        "OriginalPrice":18,
+        "imgurl":"https://tse4.mm.bing.net/th/id/OIP.fcJXhNe_p2DNuy1b69xavAHaHa?pid=Api&P=0&h=220"
+    },
+    {
+        "id":5,
+        "badgeDiscount":"35%",
+        "category":"Snack and Munchies",
+        "tittle":"Salted Instant Popcorn",
+        "rating":4.3,
+        "ratingCount":4,
+        "Price":3,
+        "OriginalPrice":5,
+        "imgurl":"https://tse1.mm.bing.net/th/id/OIP.8bUfzMR636btg2mYSUu6lQHaHa?pid=Api&P=0&h=220"
+    },
+    {
+        "id":6,
+        "badge":"Buy 1 Get $4.00 off",
+        "category":"Snack and Munchies",
+        "tittle":"Cadbury 5 star Chocolate",
+        "rating":4.3,
+        "ratingCount":4,
+        "Price":3,
+        "OriginalPrice":5,
+        "imgurl":"https://tse4.mm.bing.net/th/id/OIP.tGxdXG5W8avMOlRjyuKkQwHaHa?pid=Api&P=0&h=220"
+    },
+    {
+        "id":7,
+        "badge":"Sale ",
+        "badgeDiscount":"10%",
+        "category":"Bakery and Biscuits",
+        "tittle":"Hakdiram's Sev Bhujia",
+        "rating":4.3,
+        "ratingCount":4,
+        "Price":35,
+        "OriginalPrice":35,
+        "imgurl":"https://tse1.mm.bing.net/th/id/OIP.SMxx8QFkCtwq42xXcnbhogHaHa?pid=Api&P=0&h=220"
+    },
+
+    {
+        "id":8,
+        "badgeDiscount":"15%",
+        "category":"Dairy, Bread & Eggs",
+        "tittle":"Britannia Cheese Slices",
+        "rating":4.3,
+        "ratingCount":4,
+        "Price":14.4,
+        "OriginalPrice":24,
+        "imgurl":"https://tse1.mm.bing.net/th/id/OIP.mbawSyASxn5JcWweF5yt3QHaHa?pid=Api&P=0&h=220"
+    },
+    {
+        "id":9,
+        "category":"Kellogg's Original ",
+        "tittle":"Pop Corn Packet",
+        "rating":4.3,
+        "ratingCount":4,
+        "Price":35,
+        "OriginalPrice":29.7,
+        "imgurl":"https://tse4.mm.bing.net/th/id/OIP.S-Eto3HWQnzpTcv64nrBzgHaHa?pid=Api&P=0&h=220"
+    },
+    {
+        "id":10,
+        "badgeDiscount":"40%",
+        "category":"Bakery and Biscuits",
+        "tittle":"Lays  Potato Chips",
+        "rating":4.3,
+        "ratingCount":4,
+        "Price":24,
+        "OriginalPrice":24,
+        "imgurl":"https://tse1.mm.bing.net/th/id/OIP.dOkeTfQ2eSftYiQCccZgFAHaHa?pid=Api&P=0&h=220"
+    },
+    {
+        "id":11,
+      "badgeDiscount":"25%",
+        "category":"Slurrp Millet",
+        "tittle":"Amul Butter - 500gm",
+        "rating":4.3,
+        "ratingCount":4,
+        "Price":0,
+        "OriginalPrice":0,
+        "imgurl":"https://tse2.mm.bing.net/th/id/OIP.GnF6L09ysxDROKtaKV3c7QHaGq?pid=Api&P=0&h=220"
+    },
+    {
+        "id":12,
+        "category":"Dairy, Bread & Eggs",
+        "tittle":"Jim Jam biscuits ",
+        "rating":4.3,
+        "ratingCount":4,
+        "Price":18,
+        "OriginalPrice":13.5,
+        "imgurl":"https://tse3.mm.bing.net/th/id/OIP._0U4wbr3HomtkjEWtb0u_wHaHa?pid=Api&P=0&h=220"
+    },
+    {
+        "id":13,
+        "category":"Snack and Munchies",
+        "tittle":"Haldiram's Fine Sev ",
+        "rating":4.3,
+        "ratingCount":4,
+        "Price":21,
+        "OriginalPrice":24,
+        "imgurl":"https://tse4.mm.bing.net/th/id/OIP.x7R6pgnkLSvZ4Vfyabm8oAHaFu?pid=Api&P=0&h=220"
+    },
+    {
+        "id":14,
+        "badgeDiscount":"25%",
+        "category":"Snack and Munchies",
+        "tittle":"Potato Chips Flavour ",
+        "rating":4.3,
+        "ratingCount":4,
+        "Price":21,
+        "OriginalPrice":24,
+        "imgurl":"https://tse3.mm.bing.net/th/id/OIP.A2M8bezasNS8xKIgQoLsEAHaHa?pid=Api&P=0&h=220"
+    },
+    {
+        "id":15,
+        "badgeDiscount":"25%",
+        "category":"Snack and Munchies",
+        "tittle":"Parle Monaco Biscuit ",
+        "rating":4.3,
+        "ratingCount":4,
+        "Price":21,
+        "OriginalPrice":24,
+        "imgurl":"https://tse2.mm.bing.net/th/id/OIP.yAp7aqLyhVDjCw8y8Jik_AHaGd?pid=Api&P=0&h=220"
+    }
+
+]

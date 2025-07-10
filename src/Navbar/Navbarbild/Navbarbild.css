@@ -1,0 +1,129 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1400px;
+  margin: 52px auto 0 auto; /* Reduce top margin */
+  padding: 6px 49px;
+  background-color: rgb(233, 230, 230);
+}
+
+.leftdiv{
+  display: flex;
+  padding: 0px 72px 0px 50px;
+}
+.text{
+  font-size: 16px;
+}
+.rightdiv{
+    display: flex;
+    padding: 0px 48px 0px 30px;
+}
+.English {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+}
+ .cart {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 21px auto 0 auto; /* small gap from .main */
+}
+.leftpart{
+    display: flex;
+    margin-left: 0px;
+}
+.freshtext{
+    font-size: 28px;
+    font-weight: 600;
+}
+.midlepart{
+    display: flex;
+    gap: 1px;
+}
+.inputbox {
+  position: relative;
+  width: 500px; 
+}
+
+.inputbox input {
+  width: 100%;
+  padding: 12px 1px 12px 12px; /* right padding to make space for icon */
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+}
+
+.SearchIcon {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #666;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.location-container {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 4px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+  
+}
+
+.location-container:hover {
+  background-color: #e2e8f0;
+} 
+
+.location-icon {
+  color:#666;
+  font-size: 18px;
+  margin-right: 8px;
+}
+
+.location-info {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4px;
+}
+
+.location-label {
+  font-size: 16px;
+  color: #666;
+  line-height: 1;
+}
+
+.rightpart{
+    display: flex;
+    align-items: center;
+    color: #666;
+    margin: 0 8px 0 0;
+    font-size: 15px;
+}
+.like{
+    padding: 3px;
+    cursor: pointer;
+}
+.person{
+    padding: 3px;
+    cursor: pointer;
+}
+.bag{
+    padding: 3px;
+    cursor: pointer;
+}
+
+
+

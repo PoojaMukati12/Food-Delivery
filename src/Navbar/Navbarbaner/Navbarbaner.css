@@ -1,0 +1,43 @@
+.Navbarbaner {
+  max-width: 1300px;
+  margin: 2px auto;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background-color: white;
+  padding: 12px 42px;
+  border-bottom: 1px solid #e2e8f0;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.optionmenu {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  cursor: pointer;
+  padding: 12px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+
+.optionmenu:hover {
+  background-color: #f3f4f6;
+}
+
+
+.optionmenu:first-child {
+  background-color: rgb(12, 187, 12);
+  color: white;
+  padding: 14px 14px;
+}
+
+.allpoint {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+}
+
+
