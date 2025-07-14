@@ -203,3 +203,12 @@
   color: #6b7280;
   font-size: 13px;
 }
+@media(max-width:480px){
+      .sells-section{
+        margin: 52px auto;
+      }
+      .Best-Sell-grid{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+      }
+}

@@ -3,24 +3,15 @@ import './Feature.css'
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import Products from './Products.json';
-import Fruitimg from '../../assets/fruits-removebg-preview.png'
 
 const Feature = () => {
-    // const scrollRef=useRef(null);
-
-    // const scrollLeft =()=>{
-    //     scrollRef.current.scrollBy({left:-300,behavior:'smooth'})
-    // }
-
-    // const scrollRight=()=>{
-    //     scrollRef.current.scrollBy({left:300,behavior:'smooth'})
-    // }
+ 
     return (
         <>
             <div className="FeatureSection">
                 <div className="FeatureHeader">
                     <h2 className="section-title">Featured Categories</h2>
-                    <div className="iconsection">
+                    <div className="iconsection mobile-view">
                         <ArrowBackIosIcon/>
                         <ArrowForwardIosIcon/>
                     </div>
@@ -33,9 +24,7 @@ const Feature = () => {
                                     <img src={item.img} alt={item.tittle} />
                                     <p>{item.tittle}</p>
                                 </div>
-
                             )
-
                         })
                     }
 

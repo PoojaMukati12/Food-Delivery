@@ -19,7 +19,7 @@ const Footer = () => {
         <div className="firstsection">
             <div className="icon"><GoGift style={{color: 'green',fontSize: '52px'}}/></div>
             <span className='firstheading'>Best Prices & Offers</span>
-            <p className='paragraphsec'>Cheaper prices than your local <br/>supermarket,great cashback offers<br/> to top it off.Get best prices & offers</p>
+            <p className='paragraphsec'>Cheaper prices than your local <br/>supermarket offer<br/> to top it off.Get  prices & offers</p>
         </div>
 
         <div className="firstsection">
@@ -117,7 +117,7 @@ const Footer = () => {
             </div>
 
             <div className="app-buttons">
-                <h4>Get Deliveries with FreshCart</h4>
+                <h4 className='mobile-view'>Get Deliveries with FreshCart</h4>
                 <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Play Store" />
             </div>
 

@@ -128,3 +128,44 @@
   font-size: 14px;
   gap: 6px;
 }
+@media (max-width: 480px) {
+  .firstheading {
+    font-size: 18px;
+  }
+
+  .paragraphsec {
+    font-size: 12px;
+  }
+
+  .footer-column ul li {
+    font-size: 13px;
+  }
+
+  .payment-partner span {
+    font-size: 14px;
+  }
+
+  .copyright p {
+    font-size: 13px;
+  }
+
+  .buynowbtn {
+    font-size: 13px;
+    padding: 8px 12px;
+  }
+
+  .app-buttons img {
+    height: 36px;
+  }
+   .lastsection {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  text-align: left;
+}
+
+  .mobile-view{
+    display: none;
+  }
+
+}

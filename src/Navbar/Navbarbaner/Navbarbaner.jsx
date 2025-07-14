@@ -18,11 +18,11 @@ const Navbarbaner = () => {
                 <span className='allpoint'>Shop</span>
                 <KeyboardArrowDownOutlinedIcon sx={{ fontSize: "18px" }} />
             </div>
-            <div className="optionmenu">
+            <div className="optionmenu mobile-view">
                 <span className='allpoint'>Stores</span>
                  <KeyboardArrowDownOutlinedIcon sx={{ fontSize: "18px" }} />
             </div>
-            <div className="optionmenu">
+            <div className="optionmenu mobile-view">
                 <span className='allpoint'>Mega menu</span>
                 <KeyboardArrowDownOutlinedIcon sx={{ fontSize: "18px" }} />
             </div>
@@ -34,11 +34,11 @@ const Navbarbaner = () => {
                 <span className='allpoint'>Account</span>
                 <KeyboardArrowDownOutlinedIcon sx={{ fontSize: "18px" }} />
             </div>
-            <div className="optionmenu">
+            <div className="optionmenu mobile-view">
                 <span className='allpoint'>Dashboard </span>
                  {/* <span className='allpoint'>Docs</span> */}
             </div>
-            <div className="optionmenu">
+            <div className="optionmenu mobile-view">
                  <span className='allpoint'>Docs</span>
             </div>
         </div>

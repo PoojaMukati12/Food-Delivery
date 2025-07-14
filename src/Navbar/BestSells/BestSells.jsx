@@ -1,5 +1,5 @@
 import React from 'react'
-import './BestSelles.css'
+import './BestSells.css';
 import StarIcon from '@mui/icons-material/Star';
 import StarHalfIcon from '@mui/icons-material/StarHalf';
 

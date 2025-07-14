@@ -124,6 +124,61 @@
     padding: 3px;
     cursor: pointer;
 }
+@media(max-width:480px){
+  .main {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+  }
+  .leftdiv,
+  .rightdiv {
+    padding: 5px 0;
+    justify-content: center;
+  }
+  .cart {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 0 10px;
+  }
+  .leftpart,
+  .midlepart,
+  .rightpart {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 5px; 
+  }
+   .inputbox {
+    width: 100%;
+  }
+
+  .inputbox input {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .SearchIcon {
+    right: 10px;
+  }
+  .mobile-view{
+    display: none;
+  }
+  /* .location-container {
+    margin: 10px auto;
+  } */
+
+  .freshtext {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .like, .person, .bag {
+    font-size: 24px;
+  }
+}
 
 
 

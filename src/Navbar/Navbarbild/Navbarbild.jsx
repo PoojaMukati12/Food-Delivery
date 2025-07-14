@@ -1,7 +1,6 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Navbarbild.css'
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
-// import india from '../../../india-flag-1900.png'
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
@@ -9,7 +8,23 @@ import PermIdentityOutlinedIcon from '@mui/icons-material/PermIdentityOutlined';
 import LocalMallOutlinedIcon from '@mui/icons-material/LocalMallOutlined';
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 
-const Navbarbild = () => {
+const Navbarbild = ({setSearchTerm,}) => {
+  const [inputvalue,setInputvalue]=useState('');
+  const [showHistory,setShowHistory]=useState(false);
+
+  const handlechange=(e)=>{
+    const value= e.target.value;
+    setInputvalue(value);
+    setSearchTerm(value);
+    setShowHistory(value.length>0);
+  }
+
+  const handleHistoryClick = (term)=>{
+        setInputvalue(term);
+        setSearchTerm(term)
+        setShowHistory(false)
+  }
+
   return (
     <div>
       <div className="main">
@@ -33,10 +48,13 @@ const Navbarbild = () => {
 
         <div className="midlepart">
             <div className="inputbox">
-                    <input type="text" placeholder='Search for products' />
+                    <input type="text" 
+                    placeholder='Search for products' 
+                    onChange={(e)=>setSearchTerm(e.target.value.toLowerCase())}
+                    />
                     <SearchOutlinedIcon className='SearchIcon'/> 
             </div>
-            <div className="location-container">
+            <div className="location-container mobile-view">
                <LocationOnOutlinedIcon className="location-icon" />
                 <div className="location-info">
                 <span className="location-label">Location</span>

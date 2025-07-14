@@ -5,7 +5,7 @@
   align-items: center;
   gap: 14px;
   background-color: white;
-  padding: 12px 42px;
+  padding: 12px 20px;
   border-bottom: 1px solid #e2e8f0;
   font-family: sans-serif;
   font-size: 18px;
@@ -31,7 +31,8 @@
 .optionmenu:first-child {
   background-color: rgb(12, 187, 12);
   color: white;
-  padding: 14px 14px;
+  /* padding: 14px 14px; */
+  padding: 3px 3px;
 }
 
 .allpoint {
@@ -39,5 +40,64 @@
   vertical-align: middle;
   font-size: 14px;
 }
+@media (max-width: 768px) {
+  .Navbarbaner {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 4px 4px;
+    gap: 2px;
+    font-size: 14px;
+  }
+
+  .optionmenu {
+    padding: 6px 6px;
+    font-size: 14px;
+  }
+
+  .optionmenu:first-child {
+    padding: 4px 4px;
+    font-size: 14px;
+  }
+
+  .mobile-view {
+    display: none;
+  }
+} 
+@media (max-width: 480px) {
+  .Navbarbaner {
+    display: flex;
+    flex-wrap: nowrap; 
+    overflow-x: auto; 
+    white-space: nowrap;
+    /* padding: 8px 12px; */
+    padding: 8px 16px;
+    gap: 10px;
+    font-size: 14px;
+  }
+  .Navbarbaner::-webkit-scrollbar {
+  display: none;
+  }
+
+  .Navbarbaner {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+
+  .optionmenu {
+    flex: 0 0 auto;
+    padding: 6px 10px;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+
+  .optionmenu:first-child {
+    padding: 3px 3px;
+  }
+  .mobile-view {
+    display: none;
+  }
+}
+
 
 
